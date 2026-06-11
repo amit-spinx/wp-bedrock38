@@ -1,0 +1,51 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+!web/app/mu-plugins/spinx/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/ai1wm-backups
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Windows Thumb
+Thumbs.db
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+
+# WP-CLI
+wp-cli.local.yml
+
+# WP Rocket
+web/app/advanced-cache.php
+web/app/wp-rocket-config/*
+web/app/cache/*
+
+# ignore node modules
+node_modules/
+
+!web/app/plugins/relevanssi-premium/
+!web/app/plugins/ithemes-security-pro/
+!web/app/plugins/gravityforms
+!web/app/plugins/adminify-pro
+!web/app/plugins/gravityformshubspot
+!web/app/plugins/webpify
+
+# ignore auth.json
+/auth.json
+
+
+/%LOCALAPPDATA%/
